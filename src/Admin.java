@@ -36,8 +36,8 @@ public class Admin extends javax.swing.JFrame {
     }
 
     private void Conn() {
-        
-      
+
+
     }
     /** This method is called from within the constructor to
      * initialize the form.
@@ -426,12 +426,12 @@ public static String md5(String input) {
         {
              sex = "M";
         }
-        else 
+        else
         {
              sex = "F";
         }
-       
-       
+
+
         String addr = jTextArea1.getText();
         try
         {
@@ -445,7 +445,7 @@ public static String md5(String input) {
         }
             catch(Exception e){
             System.out.println(e.getMessage());
-    
+
         }
         }
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -480,20 +480,20 @@ public static String md5(String input) {
                 int key = Integer.parseInt(rs.getString("KEY_INT"));
                 int quota = Integer.parseInt(rs.getString("quota"));
 
-                
+
 
                 model.addRow(new Object[]{name,age,sex,addr,date,duration,key,quota});
-                
+
                 count++;
             }
         }
             catch(Exception e){
             System.out.println(e.getMessage());
     }
-            
-        
-        
-       
+
+
+
+
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jLabel9PropertyChange(java.beans.PropertyChangeEvent evt) {//GEN-FIRST:event_jLabel9PropertyChange
@@ -543,7 +543,7 @@ int day, month, year;
             catch(Exception e){
             System.out.println(e.getMessage());
     }}
-        
+
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
@@ -584,7 +584,7 @@ else {jRadioButton2.setSelected(true);}
             System.out.println(e.getMessage());
 
         }
-        
+
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
@@ -644,3 +644,4 @@ else {jRadioButton2.setSelected(true);}
     // End of variables declaration//GEN-END:variables
 
 }
+//change1
